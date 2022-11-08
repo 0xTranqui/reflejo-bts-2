@@ -4,7 +4,7 @@ const defaultTitle = process.env.NEXT_PUBLIC_SITE_TITLE || '';
 const defaultDescription = process.env.NEXT_PUBLIC_SITE_DESCRIPTION || '';
 const defaultOGURL = process.env.NEXT_PUBLIC_WEBSITE_URL || '';
 const defaultOGImage = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/social-card.png`;
-const favicon = '/builder-zorb_1.svg'
+const favicon = ''
 
 type SeoProps = {
   title?: string,
